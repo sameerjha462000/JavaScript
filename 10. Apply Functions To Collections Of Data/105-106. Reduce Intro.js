@@ -17,5 +17,3 @@ const parityList = nums.reduce((parityList, num) => {
   parityList.push({ value: num, parity: num % 2 === 0 ? "even" : "odd" });
   return parityList;
 }, []);
-
-// ROUGH WORK
