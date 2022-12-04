@@ -18,4 +18,7 @@ console.log(first, last, country);
 const { title, time } = runner; // time would be undefined
 
 // If we want our variable names to be different than our key name, then we can use semicolon
-const { country: nation, title: honorific } = runner;
+const { country: nation, title: honorific } = runner; // nation = "Kenya" and honorific = "Elder of the Order of the Golden Heart of Kenya"
+
+// We can also use REST parameters while destructuring
+const { first: firstName, last: lastName, ...other } = runner; // firstName = "Eliud", lastName = "Kipchoge" and other key-value pairs would go in other
