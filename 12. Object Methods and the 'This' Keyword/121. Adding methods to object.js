@@ -17,4 +17,4 @@ const math = {
   },
 };
 
-console.log(math.multiply(11, 23, 31, 42, 55, 53, 64, 69, 67));
+console.log(math.max(11, 23, 31, 42, 55, 53, 64, 69, 67));
