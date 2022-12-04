@@ -34,12 +34,12 @@ console.log(student.myAge);
 console.log(student.myCollege);
 console.log(student.mySchool);
 // console.log(student.100); // This is not allowed
-// console.log(student.my second name); // This is also a pproblem
+// console.log(student.my second name); // This is also a problem
 // console.log(student.'my second name'); // Not allowed
 
 
 /**
- * We can also access the properties using the squqre bracket operator which takes a string
+ * We can also access the properties using the square bracket operator which takes a string
  * This is the best way, this works fine in all the cases ==> just convert the key into a string and pass inside the square bracket
  */
 
