@@ -15,7 +15,7 @@ document.getElementsByTagName("h3"); // HTMLCollection []
 /**
  * But what is this HTMLCollection[] object.
  * It is not array, it is an array-like object.
- * We can access elements by using sqaure bracket and we also have length attribute.
+ * We can access elements by using square bracket and we also have length attribute.
  */
 
 const inputs = document.getElementsByTagName("input");
