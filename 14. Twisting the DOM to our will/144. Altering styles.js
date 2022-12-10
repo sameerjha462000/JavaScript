@@ -13,4 +13,3 @@ const p = document.querySelector("p");
 
 // In actual we have backgorund-color property
 p.style.backgroundColor = "teal";
-
