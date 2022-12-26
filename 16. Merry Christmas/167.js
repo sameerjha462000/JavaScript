@@ -41,3 +41,9 @@ promise.then(() => {
 }).catch(() => {
     console.log("promise has been rejected");
 });
+
+
+
+
+
+
